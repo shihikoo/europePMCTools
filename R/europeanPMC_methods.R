@@ -19,7 +19,7 @@ search_pmc <- function(query,
                       callback ="",
                       waitTime = 0.1) {
   endpoint = "search"
-  pageSize = "20"
+  pageSize = "1000"
   result_json <- getJson(query = query,
                           endpoint = endpoint,
                           resultType = resultType,
