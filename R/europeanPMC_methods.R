@@ -35,7 +35,7 @@ search_pmc <- function(query,
 
   resultList <- result_json$resultList$result
   resultLong <- do.call(rbind, lapply(resultList, function(x){
-     return(data.frame(id= x["id"], varname = names(x), varvalue = as.character(x)))
+     return(data.frame(id= x["id"], varname = names(x), varvalue = as.character(x), stringsAsFactors = F))
   }))
   metaDataLong <- resultLong
   for(i in 1:nloops){
