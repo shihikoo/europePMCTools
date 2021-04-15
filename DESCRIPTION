@@ -1,12 +1,11 @@
-Package: europeanPMCTools
+Package: europePMCTools
 Type: Package
 Title: Methods to use European PMC APIS
 Version: 0.1.0
 Author: shihiko
 Maintainer: shihiko <shihikoo@gmail.com>
-Description: The package is a wrapper around European PMC APIS
-    It simplifies the way to use the API and generate proper data frame for further analysis
-License: GNU
+Description: The package is a wrapper around Europe PMC APIS. It simplifies the way to use the API and generate proper data frame for further analysis.
+License: GPL-3
 Imports: httr, stringr, jsonlite, xml2, stats, tidyr
 Encoding: UTF-8
 LazyData: true
